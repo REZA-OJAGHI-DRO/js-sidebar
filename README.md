@@ -1,7 +1,7 @@
 # js-sidebar
 **If you have a lot of information to display on your site, why don't you use my accordion menu**
 
-
+![screencapture-reza-ojaghi-dro-github-io-js-sidebar-2023-11-18-20_40_39](https://github.com/REZA-OJAGHI-DRO/js-sidebar/assets/145910720/6729f8d3-cfc6-4d7b-a781-62950a2eb690)
 
 - [Demo Project](https://reza-ojaghi-dro.github.io/js-sidebar/)
  
