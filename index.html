@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/stylesheet/global.css">
+    <link rel="stylesheet" href="assets/stylesheet/master.css">
+    <link rel="stylesheet" href="assets/boot/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/boot/font/bootstrap-icons.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Young+Serif&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="col12 d-grid">
+        <section class="d-flex justify-content-end">
+            <article class="m-5 d-flex justify-content-center align-items-center">
+                <i class="bi bi-list p-0" onclick="_key(this)"></i>
+            </article>
+        </section>
+        <section class="">
+            <div>
+                <article class="box1">
+                    <div class="py-3 d-flex">
+                        <h1 class="d-flex justify-content-center align-items-center">reza ojaghi</h1>
+                        <div class="d-flex justify-content-center align-items-center">
+                            <i class="bi bi-x" onclick="_key(this)"></i>
+                        </div>
+                    </div>
+                    <div class="col-12 py-5">
+                        <ul class="col-12 px-5">
+                            <li><a href="">home</a></li>
+                            <li><a href="">about</a></li>
+                            <li><a href="">projects</a></li>
+                            <li><a href="">contact</a></li>
+                        </ul>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </header>
+</body>
+<script>
+    function _key(x) {
+        document.getElementsByClassName('box1')[0].classList.toggle('box2')
+    }
+</script>
+
+</html>
